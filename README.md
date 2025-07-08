@@ -30,7 +30,8 @@ sudo /usr/local/bin/teleport-update enable --base-url https://nexus-anon.aops.to
 
 For future reference, we can create groups of nodes with:
 ```
-teleport-update enable --group <group name>
+# enables auto updates on a node, puts the node in group "foo"
+teleport-update enable --group foo
 ```
 Which would allow us to set production nodes, staging nodes, testing nodes, 
 etc. Also, you can make it so that certain groups won't update until N hours 
@@ -61,6 +62,8 @@ User Message: failed to install
 	failed to download checksum from https://nexus-anon.aops.tools/repository/devops/teleport-v17.5.4-linux-amd64-bin.tar.gz.sha256
 		checksum not found: https://nexus-anon.aops.tools/repository/devops/teleport-v17.5.4-linux-amd64-bin.tar.gz.sha256] teleport-update/main.go:249
 ```
+
+I have uploaded the necessary ones for now, but we should probably automate it.
 
 ---
 

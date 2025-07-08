@@ -9,7 +9,7 @@ spec:
     schedules:
       regular:
         - name: default
-          days: [ "*" ]
+          days: [ "*" ] # every day (accepts "Mon", "Tue", "Wed"...)
           start_hour: 10 # in UTC...so 3am PST
   tools:
     mode: disabled
