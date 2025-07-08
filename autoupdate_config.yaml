@@ -1,0 +1,15 @@
+kind: autoupdate_config
+metadata:
+  name: autoupdate-config
+spec:
+  agents:
+    mode: enabled
+    strategy: time-based
+    maintenance_window_duration: 7200s
+    schedules:
+      regular:
+        - name: default
+          days: [ "*" ]
+          start_hour: 10 # in UTC...so 3am PST
+  tools:
+    mode: disabled

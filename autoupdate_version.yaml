@@ -1,0 +1,11 @@
+kind: autoupdate_version
+metadata:
+  name: autoupdate-version
+spec:
+  agents:
+    start_version: '17.5.4'
+    target_version: '17.5.4'
+    schedule: regular
+    mode: enabled
+  tools:
+    target_version: '17.5.4'
