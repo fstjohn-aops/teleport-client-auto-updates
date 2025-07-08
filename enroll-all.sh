@@ -16,6 +16,7 @@ BLACKLIST=(
     "digitalocean-classroom6-ocean-nyc2-01" # no idea what the hell this is
     "digitalocean-classroom6-ocean-nyc2-01" # no idea what the hell this is
     "digitalocean-classroom6-ocean-sfo2-01" # no idea what the hell this is
+    "digitalocean-classroom6-ocean-sfo3-01" # no idea what the hell this is
     "baprod-i-0e8e6a10e0d33feab" # prod instance, temporarily blacklisting
     "baprod-i-0c78fb294ae271f89" # prod instance, temporarily blacklisting
     "baprod-i-0b9204b04910dafb8" # prod instance, temporarily blacklisting
